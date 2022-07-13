@@ -26,10 +26,13 @@
             </span>
            </div>
             <a href="#apoie" title="Doações">
-                <img src="./assets/icons/pix_icon.svg" class="m-2" alt="github icon" height="45px" width="45px">
+                <img src="./assets/icons/pix_icon.svg" class="m-2" alt="pix icon" height="40px" width="40px">
             </a>
-            <a href="https://github.com/miguelhp373/NumismaticProDesktop" target="_blank" title="Ir para github">
-                <img src="./assets/icons/github_icon.svg" alt="github icon" height="45px" width="45px">
+            <a href="#help">
+                <img src="./assets/icons/email_icon.svg"class="m-2" alt="email icon" height="40px" width="40px">
+            </a>            
+            <a href="https://github.com/miguelhp373/NumismaticProDesktop" class="m-2" target="_blank" title="Ir para github">
+                <img src="./assets/icons/github_icon.svg" alt="github icon" height="40px" width="40px">
             </a>
         </div>
     </div>
@@ -86,7 +89,38 @@
     </div>
     
     <hr class="m-5"> 
-    
+
+    <h2 class="display-6 text-center" id="help">Fale Conosco</h2>
+
+    <div class="container">
+        <form action="https://formsubmit.co/miguelhp373@gmail.com" method="POST">
+            
+        
+        <div class="mb-3">
+            <label for="nome_input" class="form-label">Nome</label>
+            <input type="text" class="form-control" id="nome_input" name="Nome" placeholder="João Da Silva" required>
+        </div>   
+        <div class="mb-3">
+            <label for="email_input" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email_input" name="Email" placeholder="name@example.com" required>
+        </div> 
+        <div class="mb-3">
+            <label for="assunto_input" class="form-label">Assunto</label>
+            <textarea class="form-control" id="assunto_input" rows="3" name="Assunto" style="max-height:110px;min-height:110px;" required>
+            </textarea>
+        </div>
+        <div class="container-fluid d-flex justify-content-center">
+            <button class="btn btn-primary m-4"
+                    type="submit"
+                    style="width: 150px;height: 40px; border-radius:30px;"
+            >
+                Enviar
+            </button>
+        </div>   
+    </form>     
+    </div>
+
+    <hr class="m-5"> 
     <span>
         <p class="text-center">Criado com 💜 Por &copy;
             <a href="https://www.linkedin.com/in/miguel-henrique-pereira-b466921b0/" target="_blank" rel="noopener noreferrer">
